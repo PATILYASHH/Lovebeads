@@ -5,9 +5,8 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Navigation Bar styles */
 nav {
-    background: linear-gradient(to right, #FFA07A, #FF6347); /* LightSalmon to Tomato */
+    background: linear-gradient(to right, #FFA07A, #FF6347); 
     color: white;
     padding: 10px;
     text-align: center;
@@ -25,23 +24,22 @@ nav li {
     margin-right: 20px;
 }
 
-/* Navigation Bar Button styles */
 nav a {
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
-    background: linear-gradient(to right, #FF6347, #FF4500); /* Tomato to OrangeRed */
+    background: linear-gradient(to right, #FF6347, #FF4500); 
     color: white;
     transition: background 0.3s ease;
 }
 
 nav a:hover {
-    background: linear-gradient(to right, #FF4500, #FF6347); /* OrangeRed to Tomato */
+    background: linear-gradient(to right, #FF4500, #FF6347); 
 }
 
-/* Home Section styles */
+
 .home-section {
-    background: linear-gradient(to right, #FFD700, #FFA07A); /* Gold to LightSalmon */
+    background: linear-gradient(to right, #FFD700, #FFA07A); 
     color: #333;
     padding: 50px 20px;
     text-align: center;
@@ -52,16 +50,14 @@ nav a:hover {
     margin: auto;
 }
 
-/* Shop Section styles */
 .shop-section {
-    background: linear-gradient(to right, #98FB98, #32CD32); /* PaleGreen to LimeGreen */
+    background: linear-gradient(to right, #98FB98, #32CD32); 
     color: #333;
     padding: 50px 20px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Product Grid styles */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -69,7 +65,6 @@ nav a:hover {
     margin-top: 20px;
 }
 
-/* Product Block styles */
 .product-block {
     border: 1px solid #ddd;
     padding: 20px;
@@ -89,10 +84,12 @@ nav a:hover {
 
 .price {
     font-weight: bold;
-    color: #FF6347; /* Tomato */
+    color: #FF6347; 
 }
 
 /* Hover effect styles */
 .product-block:hover {
     transform: scale(1.1);
                                 }
+
+
